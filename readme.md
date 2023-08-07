@@ -7,3 +7,5 @@ File ordering is necessary: it is used to contriol which key value should be app
 
 example:
 > INIMerger merged.ini C.ini B.ini A.ini
+
+To C.ini will be applied B.ini with section merge and key overwrite in conflict, and then will be applied A.ini.
